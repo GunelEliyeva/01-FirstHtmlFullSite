@@ -1,0 +1,311 @@
+#container {
+  .cards {
+    @include cards();
+    background-color: rgb(222, 228, 234);
+
+    .card {
+      @include card();
+
+      .icon {
+        i {
+          @include icon();
+          padding-top: 40px;
+        }
+      }
+
+      .parag {
+        padding-bottom: 50px;
+        h3 {
+          letter-spacing: 4px;
+          color: $h-color;
+          font-weight: bold;
+          padding-bottom: 20px;
+        }
+
+        p {
+          color: $lorem;
+        }
+      }
+    }
+  }
+
+  .section {
+    max-width: 100vw;
+
+    .box {
+      padding-top: 80px;
+      background-color: white;
+      @include cards();
+
+      .image-c {
+        margin-left: 50px;
+
+        img {
+          margin-left: 25%;
+          width: 50%;
+          border: 5px solid $green;
+
+          &:hover {
+            opacity: 0.7;
+            transform: scale(1.1);
+            transition: all 0.5;
+          }
+        }
+      }
+
+      .text-box {
+        max-width: 50%;
+
+        h2 {
+          font-family: "Grand Hotel", cursive;
+          color: $green;
+          letter-spacing: 3px;
+          font-size: 30px;
+        }
+
+        h1 {
+          font-size: 30px;
+          letter-spacing: 5px;
+          font-weight: bolder;
+          color: $h-color;
+        }
+
+        .text1 {
+          color: $lorem;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-right: 300px;
+        }
+
+        .read {
+          button {
+            @include button();
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .cards {
+      flex-direction: column;
+      // .card{
+      //   width: 200px;
+      // }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .box {
+      flex-direction: column;
+      align-items: center;
+      .image-c {
+        padding-left: 0;
+        margin-left: 0;
+      }
+
+      .text1 {
+        width: 100%;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .section1 {
+    width: 100vw;
+    background-color: $white;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+
+    .box1, .box2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 40vw;
+      gap: 2vw;
+    }
+
+    .card1{
+    .image {
+           img {
+      width: 18vw;
+      border-radius: 5%;
+    }
+  }
+    }
+    .container1 {
+      @include cards();
+      gap: 2vw;
+      width: 100vw;
+    }
+
+    .text {
+      font-size: 20px;
+    }
+
+    .check {
+      font-family: "Grand Hotel", cursive;
+      color: $green;
+      letter-spacing: 3px;
+    }
+
+    .products {
+      font-size: 35px;
+      letter-spacing: 4px;
+      font-weight: bolder;
+      font-family: "Catamaran", sans-serif;
+      color: $h-color;
+    }
+
+    .parag {
+      color: #808284;
+    }
+
+    .btn1 {
+      padding-bottom: 50px;
+      button {
+        @include button();
+        
+      }
+    }
+
+    .parag1 {
+      p {
+      letter-spacing: 3px;
+      font-weight: bolder;
+      margin-top: 2vh;
+    }
+  }
+
+    .money {
+      color: $green;
+      letter-spacing: 3px;
+      font-weight: bolder;
+    }
+  }
+  .section2 {
+    width: 100vw;
+    @include cards();
+  
+
+  .explare > h2,
+  .service > h1 {
+    text-align: center;
+  }
+
+  .explare > h2 {
+    font-family: "Grand Hotel", cursive;
+    color: $green;
+    letter-spacing: 3px;
+    font-size: 30px;
+  }
+
+  .service {
+  h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    font-family: "Catamaran", sans-serif;
+    color: $h-color;
+  }
+}
+  .box3 {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5vw;
+    margin-top: 3vh;
+  }
+
+  .card2 {
+    width: 20vw;
+    text-align: center;
+    background-color: #d4d7da;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    margin-bottom: 10vh;
+  
+  &:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+  }
+}
+
+  .card2{
+     .image1{
+         img {
+    width: 20vw;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+  }
+}
+}
+
+  .icon{
+    i {
+      width: 50px;
+      height: 50px;
+      background-color: #bbe589;
+      color: #608839;
+      font-size: 25px;
+      border-radius: 50%;
+      border: 5px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      position: relative;
+      bottom: 30px;
+    }
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  .parag2 {
+
+   h3 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+  }}
+
+  .parag3 {
+    p {
+    color: $lorem;
+  }}
+
+  .btn {
+    padding-bottom: 50px;
+    button {
+      @include button();
+
+  }
+}
+  }
+
+  @media only screen and (max-width: 992px) {
+    .container1 {
+      flex-direction: column;
+    }
+
+    .box3 {
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container1 {
+      flex-direction: column;
+    }
+    .box1,
+    .box2 {
+      flex-direction: column;
+    }
+    .box3 {
+      flex-direction: column;
+    }
+  }
+}
