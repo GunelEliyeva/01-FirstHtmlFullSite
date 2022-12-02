@@ -52,7 +52,7 @@ let arr = [
     key: 13,
   },
 ];
-
+/*1-ci*/
 function object1(array) {
   let newarray = [];
   for (let i = 0; i < array.length; i++) {
@@ -64,6 +64,9 @@ function object1(array) {
 }
 object1(arr);
 
+
+
+/*2-ci*/
 function object2(array) {
   let count = 0;
   for (let i = 0; i < array.length; i++) {
@@ -78,6 +81,7 @@ function object2(array) {
 }
 object2(arr);
 
+/*3-cu*/
 function object3(array) {
   let count = 0;
   for (let i = 0; i < array.length; i++) {
@@ -93,7 +97,45 @@ function object3(array) {
 object3(arr);
 
 
+/*5-ci*/
+function object5(array) {
+  let max =0;
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].name.length>max) {
+      max= array[i].name.length;
+    }
+  }
+  for (let j = 0; j < array.length; j++) {
+    if (array[j].name.length==max) {
+      console.log("5- ", array[j].key);
+    }
+  }
+}
+object5(arr);
 
+
+
+/*6-ci*/
+function object6(array) {
+  let max =0;
+  let hasil=0;
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].name.length>max) {
+      max= array[i].name.length;
+    }
+  }
+  for (let j = 0; j < array.length; j++) {
+    if (array[j].name.length==max) {
+      hasil=(array[j].name.length*array[j].name.length);
+      console.log("6- ",hasil);
+    }
+  }
+}
+object6(arr);
+
+
+
+/*7-ci*/
 function object7(array) {
   let newArray = [];
   for (let i = 0; i < array.length; i++) {
@@ -103,22 +145,40 @@ function object7(array) {
   }
   console.log("7- ", newArray);
 }
+
 object7(arr);
 
-function object9(array) {
-    for (let i = 0; i < array.length; i++) {
-        for(let j=0; j<array[j].length; j++){
-            if (array[i].name.includes("l")) {
-                console.log("9- ", array[i].name.length);
-              }
-            }
-        }
-      
-  }
-  object9(arr);
 
 
 
+// function object9(array) {
+//   for (let i = 0; i < array.length; i++) {
+//     for (let j = 0; j < array[j].length; j++) {
+//       if (array[i].name.includes("l")) {
+//         console.log("9- ", array[i].name.length);
+//       }
+//     }
+//   }
+// }
+// object9(arr);
+
+// function object10(array) {
+//   count = 0;
+//   array.name.split("");
+//   for (let i = 0; i < name.length; i++) {
+//     if (array.name[i].includes("t")) {
+//       count++;
+//     } else if (count > 1) {
+//       console.log("10- ", array[i].key);
+//     }
+//   }
+// }
+// object10(arr);
+
+
+
+
+/*11-ci*/
 function object11(array) {
   for (let i = 0; i < array.length; i++) {
     if (array[i].key > 10 && array[i].name[0] == "l") {
