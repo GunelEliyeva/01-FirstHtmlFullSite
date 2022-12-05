@@ -1,0 +1,39 @@
+* {
+  margin: 0 auto;
+}
+
+.container {
+  width: 1000px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.container .to-do h2 {
+  background-color: rgb(155, 152, 152);
+  padding: 0 20px;
+  font-size: 20px;
+}
+.container .box {
+  padding: 20px 20px;
+}
+.container .box .input {
+  width: 800px;
+}
+.container .box #addbtn {
+  margin-left: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+.container .box #deletebtn {
+  margin-left: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+.container #boxbottom {
+  color: black;
+  width: 1000px;
+}/*# sourceMappingURL=main.css.map */

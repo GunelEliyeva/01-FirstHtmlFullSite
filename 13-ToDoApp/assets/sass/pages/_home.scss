@@ -1,0 +1,46 @@
+.container {
+  width: 1000px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 30px;
+   
+  .to-do{
+    
+   h2{
+    background-color: rgb(155, 152, 152);
+    padding: 0 20px;
+    font-size: 20px; 
+   }
+  }
+
+  .box{
+    padding: 20px 20px;
+
+    .input{
+
+        width: 800px;
+    }
+    #addbtn{
+        margin-left: 10px;
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+
+    }
+    #deletebtn{
+        margin-left: 5px;
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+    }
+
+  
+  }
+
+  #boxbottom{
+    color: black;
+    width: 1000px;
+  }
+}
