@@ -1,0 +1,151 @@
+body{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border-right: 1px solid black;
+}
+#right{
+ width: 50vw;
+ margin: 15px 20px;
+ margin-left: 24vw;
+
+ h1{
+    color: #64A460;
+    margin-bottom: 20px;
+   
+ }
+.images{
+    width: 750px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.the-space{
+    width: 750px;
+    padding-bottom: 20px;
+    h3{
+        font-size: 23px;
+        padding: 15px 0;
+    }
+
+    .text3{
+        font-size: 18px;
+       padding: 15px 0;
+    }
+    .span-el{
+        padding-left: 250px;
+    }
+}
+.amenities{
+    width: 750px;
+   
+    h3{
+        font-size: 23px;
+        padding-bottom: 20px 0;
+    }
+
+    .text4{
+        font-size: 18px;
+       padding: 20px 0;
+    }
+    .span-el2{
+        padding-left: 250px;
+    }
+    .span-el3{
+        padding-left: 270px;
+    }
+    .span-el4{
+        padding-left: 275px;
+    }
+}
+
+.extra-info{
+    width: 750px;
+    
+    h3{
+        font-size: 23px;
+        padding: 20px 0;
+    }
+.we-accept{
+    padding: 20px 0;
+}
+.card{
+    font-size: 20px;
+}
+}
+
+.rules{
+    width: 750px;
+    
+    h3{
+        font-size: 23px;
+        padding: 20px 0;
+    }
+
+    .text5{
+        padding: 20px 0;
+    }
+    .subscribe{
+        width: 250px;
+        height: 40px;
+        background-color: #429A45;
+        color: white;
+        border: none;
+        font-size: 16px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    
+    .subscribe:hover{
+        background-color: #B4B4B4;
+        color: black;
+    }
+}
+.contact{
+    width: 750px;
+    
+    h3{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    .fa-solid{
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .text6{
+        padding: 20px 0;
+    }
+
+   .input{
+    width: 750px;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding-left: 10px;
+   }
+
+   .send-message{
+    width: 250px;
+    height: 40px;
+    background-color: #429A45;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 50px;
+    cursor: pointer;
+   }
+   .send-message:hover{
+    background-color: #B4B4B4;
+    color: black;
+}
+
+
+
+
+}
+}

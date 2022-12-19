@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rental</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./asstes/css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="left">
+        <p class="text">Rental</p>
+        <p class="text">from $99</p>
+        <p class="text2">per night</p>
+<form>
+        <div class="form">
+          <div >
+            <label for="check-in" class="break"
+              ><i class="fa-regular fa-calendar-check"></i> Check in</label
+            >
+            <div class="form-submit"><input type="date" id="check-in" class="input break" /></div>
+          </div>
+          <div>
+            <label for="check-out" class="break"
+              ><i class="fa-regular fa-calendar"></i> Check out</label
+            >
+            <div  class="form-submit"><input type="date" id="check-out" class="input break" /></div>
+          </div>
+          <div >
+            <label for="adults" class="break"
+              ><i class="fa-solid fa-person"></i> Adults</label
+            >
+            <div class="form-submit"><input type="number" id="adults" class="input break" /></div>
+          </div>
+          <div >
+            <label for="kids" class="break"
+              ><i class="fa-solid fa-child-reaching"></i> Kids</label
+            >
+            <div class="form-submit"><input type="number" id="kids" class="input break" /></div>
+          </div>
+          <button  class="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i> Search availability
+          </button>
+        </div></form>
+        <div class="apartment-form asc">
+          <i class="fa-solid fa-building"></i> Apartment
+        </div>
+        <div class="subscribe-form asc">
+          <i class="fa-solid fa-wifi"></i> Subscribe
+        </div>
+        <div class="contact-form asc">
+          <i class="fa-solid fa-envelope"></i> Contact
+        </div>
+      </div>
+
+      <div id="right">
+        <h1>The Apartment</h1>
+        <div>
+          <div class="image-1">
+            <img src="./asstes/images/2.jpeg" width="750px" height="400px" />
+          </div>
+
+          <div class="images">
+            <div class="images-btn">
+              <img src="./asstes/images/1.jpeg" width="175px" height="100px" />
+            </div>
+            <div class="images-btn">
+              <img src="./asstes/images/2.jpeg" width="175px" height="100px" />
+            </div>
+            <div class="images-btn">
+              <img src="./asstes/images/3.jpeg" width="175px" height="100px" />
+            </div>
+            <div class="images-btn">
+              <img src="./asstes/images/4.jpeg" width="175px" height="100px" />
+            </div>
+          </div>
+        </div>
+        <div class="the-space">
+          <h3>The space</h3>
+          <p class="text3">
+            <span><i class="fa-solid fa-person"></i> Max people 4</span
+            ><span class="span-el"
+              ><i class="fa-regular fa-clock"></i> Check in After 3PM</span
+            >
+          </p>
+          <p class="text3">
+            <span> <i class="fa-solid fa-bath"></i> Bathrooms 2</span
+            ><span class="span-el"
+              ><i class="fa-regular fa-clock"></i> Check Out 12PM</span
+            >
+          </p>
+          <p class="text3"><i class="fa-solid fa-bed"></i> Bedrooms 1</p>
+          <hr />
+        </div>
+
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <p class="text4">
+            <span><i class="fa-solid fa-shower"></i> Shower</span
+            ><span class="span-el2"
+              ><i class="fa-solid fa-utensils"></i> Kitchen</span
+            >
+          </p>
+          <p class="text4">
+            <span><i class="fa-solid fa-wifi"></i> WiFi</span
+            ><span class="span-el3"
+              ><i class="fa-solid fa-temperature-half"></i> Heating</span
+            >
+          </p>
+          <p class="text4">
+            <span><i class="fa-solid fa-tv"></i> TV </span
+            ><span class="span-el4"
+              ><i class="fa-solid fa-wheelchair"></i> Accessible</span
+            >
+          </p>
+          <hr />
+        </div>
+
+        <div class="extra-info">
+          <h3>Extra Info</h3>
+          <p>
+            Our apartment is really clean and we like to keep it that way. Enjoy
+            the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p class="we-accept">
+            We accept: <i class="fa-regular fa-credit-card card"></i>
+            <i class="fa-brands fa-cc-mastercard card"></i>
+            <i class="fa-brands fa-cc-amex card"></i>
+            <i class="fa-brands fa-cc-paypal card"></i>
+          </p>
+          <hr />
+        </div>
+        <div class="rules">
+          <h3>Rules</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+            doloremque impedit, laudantium recusandae labore id accusamus, iste
+            est accusantium dicta, nostrum placeat tenetur fuga praesentium
+            rerum iusto. Eveniet temporibus odit culpa illo dolorem. Eos, quia.
+          </p>
+          <p class="text5">
+            Subscribe to receive updates on available dates and special offers.
+          </p>
+          <button class="subscribe">Subscribe</button>
+          <hr />
+        </div>
+        <div class="contact">
+          <h3>Contact</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Chicago, Us</p>
+          <p><i class="fa-solid fa-phone"></i> Phone +00151515</p>
+          <p><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+          <p class="text6">Questions? Go ahead, ask them:</p>
+          <div class="input-contact">
+            <div>
+              <input type="text" placeholder="Name" id="name" class="input" />
+            </div>
+            <div>
+              <input
+                type="email"
+                placeholder="Email"
+                id="email"
+                class="input"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                placeholder="Message"
+                id="message"
+                class="input"
+              />
+            </div>
+            <div><button class="send-message">Send a Message</button></div>
+          </div>
+          <p>
+            Powered by <a href="https://www.w3schools.com/w3css">w3.scss</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./asstes/app.js"></script>
+  </body>
+</html>
